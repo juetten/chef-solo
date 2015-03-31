@@ -1,0 +1,8 @@
+{
+  "apache": {
+ 		"listen_ports": [ "80", "443", "2710"  ]
+  },
+  "run_list": [
+    "role[web]"
+  ]
+}
